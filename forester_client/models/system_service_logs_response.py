@@ -21,6 +21,7 @@ import json
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel
 from pydantic import Field
+from forester_client.models.log_entry import LogEntry
 try:
     from typing import Self
 except ImportError:
@@ -30,7 +31,7 @@ class SystemServiceLogsResponse(BaseModel):
     """
     SystemServiceLogsResponse
     """ # noqa: E501
-    logs: Optional[List[Dict[str, Any]]] = Field(default=None, description="[]LogEntry")
+    logs: Optional[List[LogEntry]] = Field(default=None, description="[]LogEntry")
     __properties: ClassVar[List[str]] = ["logs"]
 
     model_config = {

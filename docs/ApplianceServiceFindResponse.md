@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**appliance** | [**Appliance**](.md) |  | [optional] 
+**appliance** | [**Appliance**](Appliance.md) |  | [optional] 
 
 ## Example
 

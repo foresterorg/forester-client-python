@@ -21,6 +21,7 @@ import json
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel
 from pydantic import Field
+from forester_client.models.system import System
 try:
     from typing import Self
 except ImportError:
@@ -30,7 +31,7 @@ class SystemServiceListResponse(BaseModel):
     """
     SystemServiceListResponse
     """ # noqa: E501
-    systems: Optional[List[Dict[str, Any]]] = Field(default=None, description="[]System")
+    systems: Optional[List[System]] = Field(default=None, description="[]System")
     __properties: ClassVar[List[str]] = ["systems"]
 
     model_config = {

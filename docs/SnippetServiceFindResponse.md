@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**snippet** | [**Snippet**](.md) |  | [optional] 
+**snippet** | [**Snippet**](Snippet.md) |  | [optional] 
 
 ## Example
 

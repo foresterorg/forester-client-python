@@ -20,6 +20,7 @@ import json
 
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel
+from forester_client.models.image import Image
 try:
     from typing import Self
 except ImportError:
@@ -29,7 +30,7 @@ class ImageServiceCreateRequest(BaseModel):
     """
     ImageServiceCreateRequest
     """ # noqa: E501
-    image: Optional[Dict[str, Any]] = None
+    image: Optional[Image] = None
     __properties: ClassVar[List[str]] = ["image"]
 
     model_config = {

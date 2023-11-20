@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**system** | [**NewSystem**](.md) |  | [optional] 
+**system** | [**NewSystem**](NewSystem.md) |  | [optional] 
 
 ## Example
 

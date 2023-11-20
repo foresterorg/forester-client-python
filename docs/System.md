@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **image_id** | **float** |  | [optional] 
 **comment** | **str** |  | 
 **appliance_id** | **float** |  | [optional] 
-**appliance** | [**Appliance**](.md) |  | [optional] 
+**appliance** | [**Appliance**](Appliance.md) |  | [optional] 
 **uid** | **str** |  | [optional] 
 **install_uuid** | **str** |  | 
 

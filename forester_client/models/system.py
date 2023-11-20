@@ -21,6 +21,7 @@ import json
 from typing import Any, ClassVar, Dict, List, Optional, Union
 from pydantic import BaseModel, StrictBool, StrictFloat, StrictInt, StrictStr
 from pydantic import Field
+from forester_client.models.appliance import Appliance
 try:
     from typing import Self
 except ImportError:
@@ -39,7 +40,7 @@ class System(BaseModel):
     image_id: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="ImageID")
     comment: StrictStr = Field(alias="Comment")
     appliance_id: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="ApplianceID")
-    appliance: Optional[Dict[str, Any]] = Field(default=None, alias="Appliance")
+    appliance: Optional[Appliance] = Field(default=None, alias="Appliance")
     uid: Optional[StrictStr] = Field(default=None, alias="UID")
     install_uuid: StrictStr = Field(alias="InstallUUID")
     __properties: ClassVar[List[str]] = ["ID", "Name", "HwAddrs", "Facts", "Acquired", "AcquiredAt", "ImageID", "Comment", "ApplianceID", "Appliance", "UID", "InstallUUID"]

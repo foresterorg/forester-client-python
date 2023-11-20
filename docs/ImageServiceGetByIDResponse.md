@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**image** | [**Image**](.md) |  | [optional] 
+**image** | [**Image**](Image.md) |  | [optional] 
 
 ## Example
 

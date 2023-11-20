@@ -20,6 +20,7 @@ import json
 
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel
+from forester_client.models.snippet import Snippet
 try:
     from typing import Self
 except ImportError:
@@ -29,7 +30,7 @@ class SnippetServiceFindResponse(BaseModel):
     """
     SnippetServiceFindResponse
     """ # noqa: E501
-    snippet: Optional[Dict[str, Any]] = None
+    snippet: Optional[Snippet] = None
     __properties: ClassVar[List[str]] = ["snippet"]
 
     model_config = {
