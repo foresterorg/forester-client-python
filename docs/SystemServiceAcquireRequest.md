@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **image_pattern** | **str** |  | [optional] 
 **comment** | **str** |  | [optional] 
 **snippets** | **List[str]** | []string | [optional] 
+**custom_snippet** | **str** |  | [optional] 
 
 ## Example
 

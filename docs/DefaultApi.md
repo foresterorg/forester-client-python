@@ -1,6 +1,6 @@
 # forester_client.DefaultApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://forester.example.com:8000*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -28,6 +28,7 @@ Method | HTTP request | Description
 [**rpc_system_service_logs_post**](DefaultApi.md#rpc_system_service_logs_post) | **POST** /rpc/SystemService/Logs | 
 [**rpc_system_service_register_post**](DefaultApi.md#rpc_system_service_register_post) | **POST** /rpc/SystemService/Register | 
 [**rpc_system_service_release_post**](DefaultApi.md#rpc_system_service_release_post) | **POST** /rpc/SystemService/Release | 
+[**rpc_system_service_rename_post**](DefaultApi.md#rpc_system_service_rename_post) | **POST** /rpc/SystemService/Rename | 
 
 
 # **rpc_appliance_service_create_post**
@@ -46,10 +47,10 @@ from forester_client.models.appliance_service_create_request import ApplianceSer
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -115,10 +116,10 @@ from forester_client.models.appliance_service_delete_request import ApplianceSer
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -184,10 +185,10 @@ from forester_client.models.appliance_service_enlist_request import ApplianceSer
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -254,10 +255,10 @@ from forester_client.models.appliance_service_find_response import ApplianceServ
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -324,10 +325,10 @@ from forester_client.models.appliance_service_list_response import ApplianceServ
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -394,10 +395,10 @@ from forester_client.models.image_service_create_response import ImageServiceCre
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -463,10 +464,10 @@ from forester_client.models.image_service_delete_request import ImageServiceDele
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -533,10 +534,10 @@ from forester_client.models.image_service_find_response import ImageServiceFindR
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -603,10 +604,10 @@ from forester_client.models.image_service_get_by_id_response import ImageService
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -673,10 +674,10 @@ from forester_client.models.image_service_list_response import ImageServiceListR
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -742,10 +743,10 @@ from forester_client.models.snippet_service_create_request import SnippetService
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -811,10 +812,10 @@ from forester_client.models.snippet_service_delete_request import SnippetService
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -880,10 +881,10 @@ from forester_client.models.snippet_service_edit_request import SnippetServiceEd
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -950,10 +951,10 @@ from forester_client.models.snippet_service_find_response import SnippetServiceF
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1020,10 +1021,10 @@ from forester_client.models.snippet_service_list_response import SnippetServiceL
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1089,10 +1090,10 @@ from forester_client.models.system_service_acquire_request import SystemServiceA
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1158,10 +1159,10 @@ from forester_client.models.system_service_boot_local_request import SystemServi
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1227,10 +1228,10 @@ from forester_client.models.system_service_boot_network_request import SystemSer
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1297,10 +1298,10 @@ from forester_client.models.system_service_find_response import SystemServiceFin
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1367,10 +1368,10 @@ from forester_client.models.system_service_kickstart_response import SystemServi
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1437,10 +1438,10 @@ from forester_client.models.system_service_list_response import SystemServiceLis
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1507,10 +1508,10 @@ from forester_client.models.system_service_logs_response import SystemServiceLog
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1576,10 +1577,10 @@ from forester_client.models.system_service_register_request import SystemService
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1645,10 +1646,10 @@ from forester_client.models.system_service_release_request import SystemServiceR
 from forester_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to https://forester.example.com:8000
 # See configuration.py for a list of all supported configuration parameters.
 configuration = forester_client.Configuration(
-    host = "http://localhost"
+    host = "https://forester.example.com:8000"
 )
 
 
@@ -1674,6 +1675,75 @@ with forester_client.ApiClient(configuration) as api_client:
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **system_service_release_request** | [**SystemServiceReleaseRequest**](SystemServiceReleaseRequest.md)|  | [optional] 
+
+### Return type
+
+**object**
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+### HTTP response details
+
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+**200** | OK |  -  |
+**4XX** | Client error |  -  |
+**5XX** | Server error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **rpc_system_service_rename_post**
+> object rpc_system_service_rename_post(system_service_rename_request=system_service_rename_request)
+
+
+
+### Example
+
+
+```python
+import time
+import os
+import forester_client
+from forester_client.models.system_service_rename_request import SystemServiceRenameRequest
+from forester_client.rest import ApiException
+from pprint import pprint
+
+# Defining the host is optional and defaults to https://forester.example.com:8000
+# See configuration.py for a list of all supported configuration parameters.
+configuration = forester_client.Configuration(
+    host = "https://forester.example.com:8000"
+)
+
+
+# Enter a context with an instance of the API client
+with forester_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_rename_request = forester_client.SystemServiceRenameRequest() # SystemServiceRenameRequest |  (optional)
+
+    try:
+        api_response = api_instance.rpc_system_service_rename_post(system_service_rename_request=system_service_rename_request)
+        print("The response of DefaultApi->rpc_system_service_rename_post:\n")
+        pprint(api_response)
+    except Exception as e:
+        print("Exception when calling DefaultApi->rpc_system_service_rename_post: %s\n" % e)
+```
+
+
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **system_service_rename_request** | [**SystemServiceRenameRequest**](SystemServiceRenameRequest.md)|  | [optional] 
 
 ### Return type
 

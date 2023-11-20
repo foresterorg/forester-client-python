@@ -5,6 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**name** | **str** |  | 
 **hw_addrs** | **List[str]** | []string | 
 **facts** | **Dict[str, str]** | map&lt;string,string&gt; | 
 **appliance_name** | **str** |  | [optional] 

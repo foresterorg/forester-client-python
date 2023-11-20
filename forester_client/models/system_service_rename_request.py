@@ -26,12 +26,13 @@ try:
 except ImportError:
     from typing_extensions import Self
 
-class SystemServiceKickstartRequest(BaseModel):
+class SystemServiceRenameRequest(BaseModel):
     """
-    SystemServiceKickstartRequest
+    SystemServiceRenameRequest
     """ # noqa: E501
-    system_pattern: Optional[StrictStr] = Field(default=None, alias="systemPattern")
-    __properties: ClassVar[List[str]] = ["systemPattern"]
+    pattern: Optional[StrictStr] = None
+    new_name: Optional[StrictStr] = Field(default=None, alias="newName")
+    __properties: ClassVar[List[str]] = ["pattern", "newName"]
 
     model_config = {
         "populate_by_name": True,
@@ -51,7 +52,7 @@ class SystemServiceKickstartRequest(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Self:
-        """Create an instance of SystemServiceKickstartRequest from a JSON string"""
+        """Create an instance of SystemServiceRenameRequest from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -74,7 +75,7 @@ class SystemServiceKickstartRequest(BaseModel):
 
     @classmethod
     def from_dict(cls, obj: Dict) -> Self:
-        """Create an instance of SystemServiceKickstartRequest from a dict"""
+        """Create an instance of SystemServiceRenameRequest from a dict"""
         if obj is None:
             return None
 
@@ -82,7 +83,8 @@ class SystemServiceKickstartRequest(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "systemPattern": obj.get("systemPattern")
+            "pattern": obj.get("pattern"),
+            "newName": obj.get("newName")
         })
         return _obj
 

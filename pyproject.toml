@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "forester_client"
 version = "0.0.1"
-description = "ImageService API"
+description = "Forester API"
 authors = ["OpenAPI Generator Community <team@openapitools.org>"]
 license = "NoLicense"
 readme = "README.md"
 repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
-keywords = ["OpenAPI", "OpenAPI-Generator", "ImageService API"]
+keywords = ["OpenAPI", "OpenAPI-Generator", "Forester API"]
 include = ["forester_client/py.typed"]
 
 [tool.poetry.dependencies]
