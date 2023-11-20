@@ -9,5 +9,4 @@ podman run --rm \
 	--input-spec 'https://raw.githubusercontent.com/foresterorg/forester/main/openapi.gen.yaml' \
 	--output /w \
 	--package-name forester_client \
-	--global-property=models,supportingFiles,apis,apiDocs=true,modelDocs=true,apiTests=false,modelTests=false \
 	--additional-properties=packageVersion=0.0.1,packageUrl=https://github.com/foresterorg/forester-client-python
