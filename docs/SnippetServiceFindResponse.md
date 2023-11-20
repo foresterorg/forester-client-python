@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.snippet_service_find_response import SnippetServiceFindResponse
+from forester_client.models.snippet_service_find_response import SnippetServiceFindResponse
 
 # TODO update the JSON string below
 json = "{}"

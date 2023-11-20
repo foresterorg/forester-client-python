@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.appliance import Appliance
+from forester_client.models.appliance import Appliance
 
 # TODO update the JSON string below
 json = "{}"

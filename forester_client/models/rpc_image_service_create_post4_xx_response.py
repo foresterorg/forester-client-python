@@ -20,11 +20,11 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, field_validator
-from forester-client.models.error_webrpc_bad_method import ErrorWebrpcBadMethod
-from forester-client.models.error_webrpc_bad_request import ErrorWebrpcBadRequest
-from forester-client.models.error_webrpc_bad_route import ErrorWebrpcBadRoute
-from forester-client.models.error_webrpc_endpoint import ErrorWebrpcEndpoint
-from forester-client.models.error_webrpc_request_failed import ErrorWebrpcRequestFailed
+from forester_client.models.error_webrpc_bad_method import ErrorWebrpcBadMethod
+from forester_client.models.error_webrpc_bad_request import ErrorWebrpcBadRequest
+from forester_client.models.error_webrpc_bad_route import ErrorWebrpcBadRoute
+from forester_client.models.error_webrpc_endpoint import ErrorWebrpcEndpoint
+from forester_client.models.error_webrpc_request_failed import ErrorWebrpcRequestFailed
 from typing import Union, Any, List, TYPE_CHECKING, Optional, Dict
 from typing_extensions import Literal
 from pydantic import StrictStr, Field

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.error_webrpc_bad_method import ErrorWebrpcBadMethod
+from forester_client.models.error_webrpc_bad_method import ErrorWebrpcBadMethod
 
 # TODO update the JSON string below
 json = "{}"

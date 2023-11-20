@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.appliance_service_list_response import ApplianceServiceListResponse
+from forester_client.models.appliance_service_list_response import ApplianceServiceListResponse
 
 # TODO update the JSON string below
 json = "{}"

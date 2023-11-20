@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.rpc_image_service_create_post5_xx_response import RpcImageServiceCreatePost5XXResponse
+from forester_client.models.rpc_image_service_create_post5_xx_response import RpcImageServiceCreatePost5XXResponse
 
 # TODO update the JSON string below
 json = "{}"

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.system_service_acquire_request import SystemServiceAcquireRequest
+from forester_client.models.system_service_acquire_request import SystemServiceAcquireRequest
 
 # TODO update the JSON string below
 json = "{}"

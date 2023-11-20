@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.log_entry import LogEntry
+from forester_client.models.log_entry import LogEntry
 
 # TODO update the JSON string below
 json = "{}"

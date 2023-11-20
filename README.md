@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import forester-client
+import forester_client
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import forester-client
+import forester_client
 ```
 
 ### Tests
@@ -51,23 +51,23 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 
 import time
-import forester-client
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_create_request = forester-client.ApplianceServiceCreateRequest() # ApplianceServiceCreateRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_create_request = forester_client.ApplianceServiceCreateRequest() # ApplianceServiceCreateRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_create_post(appliance_service_create_request=appliance_service_create_request)

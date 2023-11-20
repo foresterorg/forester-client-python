@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.system_service_register_request import SystemServiceRegisterRequest
+from forester_client.models.system_service_register_request import SystemServiceRegisterRequest
 
 # TODO update the JSON string below
 json = "{}"

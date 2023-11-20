@@ -1,4 +1,4 @@
-# forester-client.DefaultApi
+# forester_client.DefaultApi
 
 All URIs are relative to *http://localhost*
 
@@ -41,23 +41,23 @@ Method | HTTP request | Description
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.appliance_service_create_request import ApplianceServiceCreateRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.appliance_service_create_request import ApplianceServiceCreateRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_create_request = forester-client.ApplianceServiceCreateRequest() # ApplianceServiceCreateRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_create_request = forester_client.ApplianceServiceCreateRequest() # ApplianceServiceCreateRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_create_post(appliance_service_create_request=appliance_service_create_request)
@@ -110,23 +110,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.appliance_service_delete_request import ApplianceServiceDeleteRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.appliance_service_delete_request import ApplianceServiceDeleteRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_delete_request = forester-client.ApplianceServiceDeleteRequest() # ApplianceServiceDeleteRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_delete_request = forester_client.ApplianceServiceDeleteRequest() # ApplianceServiceDeleteRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_delete_post(appliance_service_delete_request=appliance_service_delete_request)
@@ -179,23 +179,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.appliance_service_enlist_request import ApplianceServiceEnlistRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.appliance_service_enlist_request import ApplianceServiceEnlistRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_enlist_request = forester-client.ApplianceServiceEnlistRequest() # ApplianceServiceEnlistRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_enlist_request = forester_client.ApplianceServiceEnlistRequest() # ApplianceServiceEnlistRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_enlist_post(appliance_service_enlist_request=appliance_service_enlist_request)
@@ -248,24 +248,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.appliance_service_find_request import ApplianceServiceFindRequest
-from forester-client.models.appliance_service_find_response import ApplianceServiceFindResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.appliance_service_find_request import ApplianceServiceFindRequest
+from forester_client.models.appliance_service_find_response import ApplianceServiceFindResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_find_request = forester-client.ApplianceServiceFindRequest() # ApplianceServiceFindRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_find_request = forester_client.ApplianceServiceFindRequest() # ApplianceServiceFindRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_find_post(appliance_service_find_request=appliance_service_find_request)
@@ -318,24 +318,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.appliance_service_list_request import ApplianceServiceListRequest
-from forester-client.models.appliance_service_list_response import ApplianceServiceListResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.appliance_service_list_request import ApplianceServiceListRequest
+from forester_client.models.appliance_service_list_response import ApplianceServiceListResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    appliance_service_list_request = forester-client.ApplianceServiceListRequest() # ApplianceServiceListRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    appliance_service_list_request = forester_client.ApplianceServiceListRequest() # ApplianceServiceListRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_appliance_service_list_post(appliance_service_list_request=appliance_service_list_request)
@@ -388,24 +388,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.image_service_create_request import ImageServiceCreateRequest
-from forester-client.models.image_service_create_response import ImageServiceCreateResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.image_service_create_request import ImageServiceCreateRequest
+from forester_client.models.image_service_create_response import ImageServiceCreateResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    image_service_create_request = forester-client.ImageServiceCreateRequest() # ImageServiceCreateRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    image_service_create_request = forester_client.ImageServiceCreateRequest() # ImageServiceCreateRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_image_service_create_post(image_service_create_request=image_service_create_request)
@@ -458,23 +458,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.image_service_delete_request import ImageServiceDeleteRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.image_service_delete_request import ImageServiceDeleteRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    image_service_delete_request = forester-client.ImageServiceDeleteRequest() # ImageServiceDeleteRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    image_service_delete_request = forester_client.ImageServiceDeleteRequest() # ImageServiceDeleteRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_image_service_delete_post(image_service_delete_request=image_service_delete_request)
@@ -527,24 +527,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.image_service_find_request import ImageServiceFindRequest
-from forester-client.models.image_service_find_response import ImageServiceFindResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.image_service_find_request import ImageServiceFindRequest
+from forester_client.models.image_service_find_response import ImageServiceFindResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    image_service_find_request = forester-client.ImageServiceFindRequest() # ImageServiceFindRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    image_service_find_request = forester_client.ImageServiceFindRequest() # ImageServiceFindRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_image_service_find_post(image_service_find_request=image_service_find_request)
@@ -597,24 +597,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.image_service_get_by_id_request import ImageServiceGetByIDRequest
-from forester-client.models.image_service_get_by_id_response import ImageServiceGetByIDResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.image_service_get_by_id_request import ImageServiceGetByIDRequest
+from forester_client.models.image_service_get_by_id_response import ImageServiceGetByIDResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    image_service_get_by_id_request = forester-client.ImageServiceGetByIDRequest() # ImageServiceGetByIDRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    image_service_get_by_id_request = forester_client.ImageServiceGetByIDRequest() # ImageServiceGetByIDRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_image_service_get_by_id_post(image_service_get_by_id_request=image_service_get_by_id_request)
@@ -667,24 +667,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.image_service_list_request import ImageServiceListRequest
-from forester-client.models.image_service_list_response import ImageServiceListResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.image_service_list_request import ImageServiceListRequest
+from forester_client.models.image_service_list_response import ImageServiceListResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    image_service_list_request = forester-client.ImageServiceListRequest() # ImageServiceListRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    image_service_list_request = forester_client.ImageServiceListRequest() # ImageServiceListRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_image_service_list_post(image_service_list_request=image_service_list_request)
@@ -737,23 +737,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.snippet_service_create_request import SnippetServiceCreateRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.snippet_service_create_request import SnippetServiceCreateRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    snippet_service_create_request = forester-client.SnippetServiceCreateRequest() # SnippetServiceCreateRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    snippet_service_create_request = forester_client.SnippetServiceCreateRequest() # SnippetServiceCreateRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_snippet_service_create_post(snippet_service_create_request=snippet_service_create_request)
@@ -806,23 +806,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.snippet_service_delete_request import SnippetServiceDeleteRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.snippet_service_delete_request import SnippetServiceDeleteRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    snippet_service_delete_request = forester-client.SnippetServiceDeleteRequest() # SnippetServiceDeleteRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    snippet_service_delete_request = forester_client.SnippetServiceDeleteRequest() # SnippetServiceDeleteRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_snippet_service_delete_post(snippet_service_delete_request=snippet_service_delete_request)
@@ -875,23 +875,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.snippet_service_edit_request import SnippetServiceEditRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.snippet_service_edit_request import SnippetServiceEditRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    snippet_service_edit_request = forester-client.SnippetServiceEditRequest() # SnippetServiceEditRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    snippet_service_edit_request = forester_client.SnippetServiceEditRequest() # SnippetServiceEditRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_snippet_service_edit_post(snippet_service_edit_request=snippet_service_edit_request)
@@ -944,24 +944,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.snippet_service_find_request import SnippetServiceFindRequest
-from forester-client.models.snippet_service_find_response import SnippetServiceFindResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.snippet_service_find_request import SnippetServiceFindRequest
+from forester_client.models.snippet_service_find_response import SnippetServiceFindResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    snippet_service_find_request = forester-client.SnippetServiceFindRequest() # SnippetServiceFindRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    snippet_service_find_request = forester_client.SnippetServiceFindRequest() # SnippetServiceFindRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_snippet_service_find_post(snippet_service_find_request=snippet_service_find_request)
@@ -1014,24 +1014,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.snippet_service_list_request import SnippetServiceListRequest
-from forester-client.models.snippet_service_list_response import SnippetServiceListResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.snippet_service_list_request import SnippetServiceListRequest
+from forester_client.models.snippet_service_list_response import SnippetServiceListResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    snippet_service_list_request = forester-client.SnippetServiceListRequest() # SnippetServiceListRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    snippet_service_list_request = forester_client.SnippetServiceListRequest() # SnippetServiceListRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_snippet_service_list_post(snippet_service_list_request=snippet_service_list_request)
@@ -1084,23 +1084,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_acquire_request import SystemServiceAcquireRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_acquire_request import SystemServiceAcquireRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_acquire_request = forester-client.SystemServiceAcquireRequest() # SystemServiceAcquireRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_acquire_request = forester_client.SystemServiceAcquireRequest() # SystemServiceAcquireRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_acquire_post(system_service_acquire_request=system_service_acquire_request)
@@ -1153,23 +1153,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_boot_local_request import SystemServiceBootLocalRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_boot_local_request import SystemServiceBootLocalRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_boot_local_request = forester-client.SystemServiceBootLocalRequest() # SystemServiceBootLocalRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_boot_local_request = forester_client.SystemServiceBootLocalRequest() # SystemServiceBootLocalRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_boot_local_post(system_service_boot_local_request=system_service_boot_local_request)
@@ -1222,23 +1222,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_boot_network_request import SystemServiceBootNetworkRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_boot_network_request import SystemServiceBootNetworkRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_boot_network_request = forester-client.SystemServiceBootNetworkRequest() # SystemServiceBootNetworkRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_boot_network_request = forester_client.SystemServiceBootNetworkRequest() # SystemServiceBootNetworkRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_boot_network_post(system_service_boot_network_request=system_service_boot_network_request)
@@ -1291,24 +1291,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_find_request import SystemServiceFindRequest
-from forester-client.models.system_service_find_response import SystemServiceFindResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_find_request import SystemServiceFindRequest
+from forester_client.models.system_service_find_response import SystemServiceFindResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_find_request = forester-client.SystemServiceFindRequest() # SystemServiceFindRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_find_request = forester_client.SystemServiceFindRequest() # SystemServiceFindRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_find_post(system_service_find_request=system_service_find_request)
@@ -1361,24 +1361,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_kickstart_request import SystemServiceKickstartRequest
-from forester-client.models.system_service_kickstart_response import SystemServiceKickstartResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_kickstart_request import SystemServiceKickstartRequest
+from forester_client.models.system_service_kickstart_response import SystemServiceKickstartResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_kickstart_request = forester-client.SystemServiceKickstartRequest() # SystemServiceKickstartRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_kickstart_request = forester_client.SystemServiceKickstartRequest() # SystemServiceKickstartRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_kickstart_post(system_service_kickstart_request=system_service_kickstart_request)
@@ -1431,24 +1431,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_list_request import SystemServiceListRequest
-from forester-client.models.system_service_list_response import SystemServiceListResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_list_request import SystemServiceListRequest
+from forester_client.models.system_service_list_response import SystemServiceListResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_list_request = forester-client.SystemServiceListRequest() # SystemServiceListRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_list_request = forester_client.SystemServiceListRequest() # SystemServiceListRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_list_post(system_service_list_request=system_service_list_request)
@@ -1501,24 +1501,24 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_logs_request import SystemServiceLogsRequest
-from forester-client.models.system_service_logs_response import SystemServiceLogsResponse
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_logs_request import SystemServiceLogsRequest
+from forester_client.models.system_service_logs_response import SystemServiceLogsResponse
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_logs_request = forester-client.SystemServiceLogsRequest() # SystemServiceLogsRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_logs_request = forester_client.SystemServiceLogsRequest() # SystemServiceLogsRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_logs_post(system_service_logs_request=system_service_logs_request)
@@ -1571,23 +1571,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_register_request import SystemServiceRegisterRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_register_request import SystemServiceRegisterRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_register_request = forester-client.SystemServiceRegisterRequest() # SystemServiceRegisterRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_register_request = forester_client.SystemServiceRegisterRequest() # SystemServiceRegisterRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_register_post(system_service_register_request=system_service_register_request)
@@ -1640,23 +1640,23 @@ No authorization required
 ```python
 import time
 import os
-import forester-client
-from forester-client.models.system_service_release_request import SystemServiceReleaseRequest
-from forester-client.rest import ApiException
+import forester_client
+from forester_client.models.system_service_release_request import SystemServiceReleaseRequest
+from forester_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = forester-client.Configuration(
+configuration = forester_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with forester-client.ApiClient(configuration) as api_client:
+with forester_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = forester-client.DefaultApi(api_client)
-    system_service_release_request = forester-client.SystemServiceReleaseRequest() # SystemServiceReleaseRequest |  (optional)
+    api_instance = forester_client.DefaultApi(api_client)
+    system_service_release_request = forester_client.SystemServiceReleaseRequest() # SystemServiceReleaseRequest |  (optional)
 
     try:
         api_response = api_instance.rpc_system_service_release_post(system_service_release_request=system_service_release_request)

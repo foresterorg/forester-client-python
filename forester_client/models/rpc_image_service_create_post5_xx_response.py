@@ -20,9 +20,9 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, field_validator
-from forester-client.models.error_webrpc_bad_response import ErrorWebrpcBadResponse
-from forester-client.models.error_webrpc_internal_error import ErrorWebrpcInternalError
-from forester-client.models.error_webrpc_server_panic import ErrorWebrpcServerPanic
+from forester_client.models.error_webrpc_bad_response import ErrorWebrpcBadResponse
+from forester_client.models.error_webrpc_internal_error import ErrorWebrpcInternalError
+from forester_client.models.error_webrpc_server_panic import ErrorWebrpcServerPanic
 from typing import Union, Any, List, TYPE_CHECKING, Optional, Dict
 from typing_extensions import Literal
 from pydantic import StrictStr, Field

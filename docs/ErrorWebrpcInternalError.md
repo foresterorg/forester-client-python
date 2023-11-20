@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.error_webrpc_internal_error import ErrorWebrpcInternalError
+from forester_client.models.error_webrpc_internal_error import ErrorWebrpcInternalError
 
 # TODO update the JSON string below
 json = "{}"

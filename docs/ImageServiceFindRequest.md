@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.image_service_find_request import ImageServiceFindRequest
+from forester_client.models.image_service_find_request import ImageServiceFindRequest
 
 # TODO update the JSON string below
 json = "{}"

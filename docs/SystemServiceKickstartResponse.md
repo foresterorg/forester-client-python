@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.system_service_kickstart_response import SystemServiceKickstartResponse
+from forester_client.models.system_service_kickstart_response import SystemServiceKickstartResponse
 
 # TODO update the JSON string below
 json = "{}"

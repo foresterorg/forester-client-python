@@ -24,11 +24,11 @@ import tempfile
 from urllib.parse import quote
 from typing import Tuple, Optional, List
 
-from forester-client.configuration import Configuration
-from forester-client.api_response import ApiResponse
-import forester-client.models
-from forester-client import rest
-from forester-client.exceptions import (
+from forester_client.configuration import Configuration
+from forester_client.api_response import ApiResponse
+import forester_client.models
+from forester_client import rest
+from forester_client.exceptions import (
     ApiValueError,
     ApiException,
     BadRequestException,
@@ -415,7 +415,7 @@ class ApiClient:
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(forester-client.models, klass)
+                klass = getattr(forester_client.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

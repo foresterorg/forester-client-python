@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.image_service_create_response import ImageServiceCreateResponse
+from forester_client.models.image_service_create_response import ImageServiceCreateResponse
 
 # TODO update the JSON string below
 json = "{}"

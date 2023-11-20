@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from forester-client.models.appliance_service_delete_request import ApplianceServiceDeleteRequest
+from forester_client.models.appliance_service_delete_request import ApplianceServiceDeleteRequest
 
 # TODO update the JSON string below
 json = "{}"
